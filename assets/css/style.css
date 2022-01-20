@@ -61,3 +61,12 @@ h2 {
     border-bottom: 1px solid rgb(126, 7, 7);
 
 }
+/* Hero image styling */
+#hero-image {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 600px;
+    width: 100%;
+    background: url(../images/food-photography3.jpg) no-repeat;
+}
