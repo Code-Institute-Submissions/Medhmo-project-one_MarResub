@@ -9,13 +9,17 @@
 body {
     font-family: "roboto"sans-serif;
     font-weight: 30;
-    color: rgb(189, 27, 27);
+    color: rgb(0, 0, 0);
+   
+
+    
+    
 }
 
 h1,
 h2 {
     font-family: "Roboto Condensed" sans-serif;
-    color: rgb(189, 27, 27);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 5px;
 
@@ -26,9 +30,10 @@ h2 {
 #logo {
     float: left;
     font-size: 330%;
-    color: rgb(201, 27, 27);
-    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 7%;
     font-weight: bold;
+    
 
 }
 
@@ -37,19 +42,23 @@ h2 {
 #nav-bar {
     font-size: 200%;
     font-style: normal;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
+
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 8%;
+    
+    
+    
 
 }
 
 #nav-bar a {
     text-decoration: none;
-    color: rgb(189, 27, 27);
+    color: rgb(0, 0, 0);
 }
 
 #nav-bar,
@@ -58,15 +67,12 @@ h2 {
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid rgb(126, 7, 7);
+    color: rgb(0, 0, 0);
 
 }
 /* Hero image styling */
-#hero-image {
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 600px;
+#hero-image{
+    height: 800px;
     width: 100%;
-    background: url(../images/food-photography3.jpg) no-repeat;
+    background:url(../images/touching-food.jpg) no-repeat center center;
 }
