@@ -6,24 +6,56 @@
     border: none;
 }
 
-body {
-    font-family: "roboto"sans-serif;
-    font-weight: 30;
-    color: rgb(0, 0, 0);
-   
+/* body */
 
-    
-    
+body {
+    font-family: Roboto sans-serif;
+    font-weight: 300%;
+    color: rgb(0, 0, 0);
 }
+
 
 h1,
 h2 {
-    font-family: "Roboto Condensed" sans-serif;
+    font-family: Roboto Condensed sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 5px;
 
 }
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+#section1 {
+
+    background-size: cover;
+    width: 100%;
+    background: url(../images/touching-food.jpg) no-repeat center center;
+}
+
+#section2 {
+
+    padding: 100px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#section2 h2 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#section2 p {
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: 20px;
+}
+
+
 
 /* heading and logo */
 
@@ -33,32 +65,42 @@ h2 {
     color: rgb(0, 0, 0);
     margin-left: 7%;
     font-weight: bold;
-    
+
 
 }
 
 /* navigation and links */
 
 #nav-bar {
+    width: 100%;
+    height: 80px;
     font-size: 200%;
     font-style: normal;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
+
+
 
 }
 
-#nav-bar li {
+#nav-bar ul {
+    display: flex;
+    margin-right: 0;
+    padding: 0 100px;
     float: right;
+}
+
+#nav-bar li {
+
     list-style-type: none;
-    margin-right: 8%;
-    
-    
-    
+
+
 
 }
 
 #nav-bar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding: 0 20px;
 }
 
 #nav-bar,
@@ -68,11 +110,8 @@ h2 {
 
 #nav-bar a:hover {
     color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
 
 }
+
 /* Hero image styling */
-#hero-image{
-    height: 800px;
-    width: 100%;
-    background:url(../images/touching-food.jpg) no-repeat center center;
-}
