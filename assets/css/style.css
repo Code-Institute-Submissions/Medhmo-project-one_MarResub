@@ -47,6 +47,7 @@ section {
     font-size: 2.5em;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #section2 p {
@@ -69,6 +70,8 @@ section {
 
 }
 
+
+
 /* navigation and links */
 
 #nav-bar {
@@ -76,7 +79,11 @@ section {
     height: 80px;
     font-size: 200%;
     font-style: normal;
+    position: sticky;
     letter-spacing: 4px;
+    top: 0;
+    background: snow;
+
 
 
 
@@ -101,6 +108,9 @@ section {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 80px;
 }
 
 #nav-bar,
@@ -114,4 +124,29 @@ section {
 
 }
 
-/* Hero image styling */
+.active {
+    border-bottom: 1px solid black;
+
+}
+
+
+
+/* footer styling */
+.ftr {
+    text-align: center;
+
+}
+
+.ftr>li {
+    display: inline;
+
+}
+
+.ftr li {
+    font-size: medium;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: black;
+    list-style-type: none;
+
+}
