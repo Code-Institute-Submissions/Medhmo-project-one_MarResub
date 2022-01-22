@@ -147,3 +147,25 @@ footer{
     color: black;
     
 }
+/* styling for the recipe page */
+
+.bolo-h2{
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.recipe1{
+    padding-top: 3vh;
+    display: grid;
+grid-template-columns: 30% 35% 30%;
+grid-gap: 1em;
+width: 100%;
+
+}
+.bolo-1{
+    background: url(../images/spaghetti-pasta-bolognese-sauce-basil-black-stone-plate-italian-food-top-view-free-space-text-198944546.jpg) no-repeat  ;
+    background-size: contain;
+    
+}
+
+
