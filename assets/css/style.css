@@ -73,7 +73,7 @@ section {
 /* navigation and links */
 
 #nav-bar {
-    
+
     height: 80px;
     font-size: 200%;
     font-style: normal;
@@ -127,9 +127,10 @@ section {
 
 
 /* footer styling */
-footer{
+footer {
     height: 150px;
 }
+
 .ftr {
     text-align: center;
 
@@ -143,29 +144,31 @@ footer{
 .ftr i {
     font-size: 160%;
     margin: 1%;
-    padding:4%;
+    padding: 4%;
     color: black;
-    
+
 }
+
 /* styling for the recipe page */
 
-.bolo-h2{
+.bolo-h2 {
     text-align: center;
     padding-bottom: 3vh;
 }
 
-.recipe1{
+.recipe1 {
     padding-top: 3vh;
     display: grid;
-grid-template-columns: 30% 35% 30%;
-grid-gap: 1em;
-width: 100%;
+    grid-template-columns: 30% 35% 30%;
+    grid-gap: 1em;
+    width: 100%;
 
 }
-.bolo-1{
-    background: url(../images/spaghetti-pasta-bolognese-sauce-basil-black-stone-plate-italian-food-top-view-free-space-text-198944546.jpg) no-repeat  ;
+
+.bolo-1 {
+    background: url(../images/spaghetti-pasta-bolognese-sauce-basil-black-stone-plate-italian-food-top-view-free-space-text-198944546.jpg) no-repeat;
     background-size: contain;
-    
+
 }
 
 /* eatery styling */
@@ -183,6 +186,7 @@ width: 100%;
     width: 100%;
     gap: 1em;
 }
+
 .eatery-2 {
     background: url(../images/asford-castle-front-lawn.jpg) center center / contain no-repeat;
 }
@@ -193,4 +197,5 @@ width: 100%;
 
 .eatery-5 {
     background: url(../images/exterior.jpg) center center no-repeat;
+    background-size: contain;
 }
