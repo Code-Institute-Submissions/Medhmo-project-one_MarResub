@@ -168,4 +168,29 @@ width: 100%;
     
 }
 
+/* eatery styling */
 
+#eatery-h2 {
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+#eatery-1 {
+    padding-top: 3vh;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    width: 100%;
+    gap: 1em;
+}
+.eatery-2 {
+    background: url(../images/asford-castle-front-lawn.jpg) center center / contain no-repeat;
+}
+
+.eatery-h4 {
+    text-align: center;
+}
+
+.eatery-5 {
+    background: url(../images/exterior.jpg) center center no-repeat;
+}
