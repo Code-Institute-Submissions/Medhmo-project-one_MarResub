@@ -199,3 +199,8 @@ footer {
     background: url(../images/exterior.jpg) center center no-repeat;
     background-size: contain;
 }
+
+/* join us styling */
+#join-us-image {
+    background: url(../images/food-photography3.jpg) no-repeat center center;
+}
