@@ -34,6 +34,7 @@ section {
     background-size: cover;
     width: 100%;
     background: url(../images/touching-food.jpg) no-repeat center center;
+    margin-top: 100px;
 }
 
 #section2 {
@@ -66,6 +67,7 @@ section {
     color: rgb(0, 0, 0);
     margin-left: 7%;
     font-weight: bold;
+    bottom: auto;
 }
 
 
@@ -205,7 +207,7 @@ footer {
     background: url(../images/food-photography3.jpg) no-repeat center center;
 }
 
-/* Media queries */
+/* Media queries for tablets at max-width 1200px */
 
 @media screen and (max-width: 1200px){
 
@@ -224,4 +226,18 @@ footer {
 }
 
 }
+
+/* media queries for screen sizes at max-width 950px */
+
+@media screen and (max-width: 950px){
+    #nav-bar{
+        clear: left;
+        float: left;
+        margin-left: 0;
+        margin-bottom: 20px;
+        line-height: 20px;
+       
+    }
+}
+
     
