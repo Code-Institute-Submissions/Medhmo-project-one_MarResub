@@ -58,7 +58,6 @@ section {
 }
 
 
-
 /* heading and logo */
 
 #logo {
@@ -71,32 +70,29 @@ section {
 }
 
 
-
 /* navigation and links */
 
 #nav-bar {
 
-    height: 80px;
+    height: 50px;
     font-size: 200%;
     font-style: normal;
-    letter-spacing: 4px;
+    letter-spacing: 0.1vw;
     top: 0;
     background: snow;
 
 }
 
-
 #nav-bar ul {
     display: flex;
     margin-right: 0;
-    padding: 0 100px;
+    padding: 0 50px;
     float: right;
 }
 
 #nav-bar li {
 
     list-style-type: none;
-
 
 
 }
@@ -127,10 +123,11 @@ section {
 }
 
 
-
 /* footer styling */
+
 footer {
     height: 150px;
+
 }
 
 .ftr {
@@ -156,6 +153,14 @@ footer {
 .bolo-h2 {
     text-align: center;
     padding-bottom: 3vh;
+    padding-top: 3vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.bolo-h3 {
+    text-align: center;
+
 }
 
 .recipe1 {
@@ -167,10 +172,22 @@ footer {
 
 }
 
+.recipe-p {
+    font-family: roboto sans-serif;
+    font-size: medium;
+}
+
 .bolo-1 {
     background: url(../images/spaghetti-pasta-bolognese-sauce-basil-black-stone-plate-italian-food-top-view-free-space-text-198944546.jpg) no-repeat;
     background-size: contain;
+    padding-top: 5vh;
+    margin-top: 5vh;
 
+}
+
+.recipe-li {
+    font-size: large;
+    font-weight: 200%;
 }
 
 /* eatery styling */
@@ -179,6 +196,7 @@ footer {
     text-align: center;
     padding-bottom: 3vh;
     padding-top: 3vh;
+    margin-top: 3vh;
 }
 
 #eatery-1 {
@@ -194,7 +212,16 @@ footer {
 }
 
 .eatery-h4 {
-    text-align: center;
+    text-align: left;
+    font-family: roboto sans-serif;
+    font-weight: 400%;
+    font-size: x-large;
+}
+
+.eatery-p {
+    font-family: roboto sans-serif;
+    font-weight: 300%;
+    font-size: large;
 }
 
 .eatery-5 {
@@ -204,40 +231,46 @@ footer {
 
 /* join us styling */
 #join-us-image {
-    background: url(../images/food-photography3.jpg) no-repeat center center;
+    /* background: url(../images/food-photography3.jpg) no-repeat center center; */
+    background-image: url(../images/food-photography3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 /* Media queries for tablets at max-width 1200px */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
     #section2 {
         width: 60%;
         height: 1200px;
         margin: 0 auto;
     }
-#welcome{
-    padding: 25px 0;
-}
-.welcome-p {
-    width: 100%;
-    float: left;
-    padding:0
-}
+
+    #welcome {
+        padding: 25px 0;
+    }
+
+    .welcome-p {
+        width: 100%;
+        float: left;
+        padding: 0
+    }
 
 }
 
 /* media queries for screen sizes at max-width 950px */
 
-@media screen and (max-width: 950px){
-    #nav-bar{
-        clear: left;
+@media screen and (max-width: 950px) {
+    #nav-bar {
+
         float: left;
         margin-left: 0;
+
         margin-bottom: 20px;
         line-height: 20px;
-       
+        flex-shrink: inherit;
+
     }
 }
-
-    
