@@ -268,6 +268,13 @@ footer {
         margin: 0;
     }
 
+    #section1 {
+        clear: both;
+        width: 100%;
+        background-size: cover;
+
+    }
+
     .welcome-p {
         width: 100%;
 
@@ -287,23 +294,48 @@ footer {
         line-height: 30px;
     }
 
+    #section2 {
+        width: 50%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
     #section1 {
         clear: both;
-        width: 100%;
+        width: 1000px;
         background-size: cover;
+
     }
 
-    /* section2 p {
-        text-align: left;
+    #welcome {
+        padding: 35px 0;
+        margin-bottom: 20vh;
+    }
+
+
+
+    /* .welcome-p {
+        width: inherit;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 30px;
+
     } */
-
-    .welcome-p {
-        text-align: left;
-        padding: 0;
-        margin: 0;
-    }
 
     .ftr {
         margin-bottom: 0;
+        position: relative;
+    }
+}
+
+/* media queries for screen sizes at max-width 650px */
+
+@media screen and (max-width: 650px) {
+    #section1 {
+        clear: both;
+        width: 1000px;
+        background-size: cover;
+
     }
 }
