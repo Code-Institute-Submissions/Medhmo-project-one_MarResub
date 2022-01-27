@@ -169,7 +169,7 @@ footer {
 #section1-r {
     padding-top: 80px;
     width: 100%;
-    height: 800px;
+    height: 600px;
 
 }
 
@@ -211,6 +211,21 @@ footer {
     font-weight: normal;
 }
 
+#bolognese-image-t {
+    background-image: url(../images/132255_steak_00.011c6919.jpg);
+    height: 300px;
+    width: 30%;
+    float: left;
+    background-size: cover;
+}
+
+#bolognese-image-r {
+    background-image: url(../images/tomato_bulgur_salad-014-Edit-1024x683.jpg);
+    height: 300px;
+    width: 30%;
+    float: left;
+    background-size: cover;
+}
 
 /* eatery styling */
 
@@ -320,6 +335,22 @@ footer {
     }
 
     #bolognese-image {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+
+    }
+
+    #bolognese-image-t {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+
+    }
+
+    #bolognese-image-r {
         clear: both;
         width: 100%;
         float: left;
