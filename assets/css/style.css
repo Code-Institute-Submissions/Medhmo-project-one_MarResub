@@ -277,7 +277,7 @@ footer {
 @media screen and (max-width: 1200px) {
 
     #section2 {
-        width: 100%;
+        width: 65%;
         height: 1000px;
         margin: 0 auto;
     }
@@ -341,15 +341,24 @@ footer {
     }
 
     #section2 {
-        width: 65%;
+        width: 90%;
         height: 1000px;
-        /* margin: 0 auto; */
         margin-left: 20%;
+    }
+
+    #section2 h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section2 p {
+        text-align: center;
+        padding: 0 25px;
     }
 
     #section1 {
         clear: both;
-        width: 1000px;
+        width: 90%;
         background-size: cover;
 
     }
@@ -366,38 +375,28 @@ footer {
         width: 1000px;
     }
 
-
-}
-
-/* media queries for screen sizes at max-width 650px */
-
-@media screen and (max-width: 650px) {
-    #section1 {
-        clear: both;
-        width: 700px;
-        background-size: cover;
+    #section1-r {
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
     }
 
-    #section2 {
-        width: 80%;
-        height: 800px;
-        padding: 0;
-        margin-left: 20%;
-        margin-right: 20%;
-
+    #bolognese-method,
+    #bolognese-ingredients {
+        width: inherit;
     }
 
-}
-
-/* media queries for screen sizes at max-width 450px */
-
-@media screen and (max-width: 450px) {
-    #section2 {
+    #bolognese-method h2,
+    #bolognese-ingredients h2,
+    #section1-r h2 {
         width: 100%;
-        height: 900px;
-        margin-left: 40%;
-        margin-right: 40%;
+        text-align: center;
+    }
 
-
+    #bolognese-method p,
+    #bolognese-ingredients p,
+    #section1-r p {
+        text-align: center;
+        padding: 0 25px;
     }
 }
