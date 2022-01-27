@@ -231,39 +231,54 @@ footer {
 
 #eatery-h2 {
     text-align: center;
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-    margin-top: 10vh;
-}
+    padding-bottom: 30px;
+    padding-top: 30px;
 
-#eatery-1 {
-    padding-top: 3vh;
-    display: grid;
-    grid-template-columns: 30% 65%;
-    width: 100%;
-    gap: 1em;
 }
 
 .eatery-2 {
-    background: url(../images/asford-castle-front-lawn.jpg) center center / contain no-repeat;
+    background-image: url(../images/asford-castle-front-lawn.jpg);
+    height: 300px;
+    width: 40%;
+    float: left;
+    background-size: cover;
+}
+
+#eatery1-e {
+    padding-top: 80px;
+    width: 100%;
+    height: 600px;
+
 }
 
 .eatery-h4 {
-    text-align: left;
+    text-align: center;
     font-family: roboto sans-serif;
     font-weight: bold;
     font-size: x-large;
+    padding-bottom: 20px;
 }
 
 .eatery-p {
     font-family: roboto sans-serif;
     font-weight: normal;
     font-size: large;
+    padding-bottom: 35px;
 }
 
 .eatery-5 {
-    background: url(../images/exterior.jpg) center center no-repeat;
-    background-size: contain;
+    background: url(../images/exterior.jpg);
+    height: 300px;
+    width: 40%;
+    float: left;
+    background-size: cover;
+}
+
+.eatery-3 {
+    height: 300px;
+    width: 55%;
+    float: right;
+
 }
 
 /* join us styling */
@@ -357,7 +372,34 @@ footer {
         padding: 0;
 
     }
+
+    #eatery1-e,
+    #eatery2-e {
+        width: 65%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    .eatery-p {
+        padding: 35px 0;
+        margin: 0;
+    }
+
+    .eatery-3 {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .eatery-2,
+    .eatery-5 {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
+
 
 
 /* media queries for screen sizes at max-width 950px */
@@ -430,4 +472,29 @@ footer {
         text-align: center;
         padding: 0 25px;
     }
+
+
+    #eatery1-e,
+    #eatery2-e {
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    #eatery-h2,
+    .eatery-h4 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .eatery-p {
+        margin-bottom: 20px;
+    }
+
+    .eatery-5 {
+        margin-top: 300px
+    }
+
+
 }
