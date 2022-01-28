@@ -283,9 +283,9 @@ footer {
 
 /* join us styling */
 
-#join-us-image {
-    background-image: url(../images/food-photography3.jpg);
-    background-repeat: no-repeat;
+
+* #join-us-image {
+    background-image: url;
     background-position: center center;
     background-size: cover;
     margin-top: 10vh;
@@ -301,6 +301,54 @@ footer {
     font-size: x-large;
     margin-top: 5vh;
 }
+
+#join-us-form {
+    clear: both;
+    height: 1200px;
+    margin-top: 180px;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    max-width: 500px;
+    position: absolute;
+    padding: 40px;
+
+}
+
+#user {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#email-field {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    margin-top: 25 px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: x-large;
+}
+
+
 
 /* Media queries for screen sizes at max-width 1200px */
 
