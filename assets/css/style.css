@@ -9,9 +9,10 @@
 /* body */
 
 body {
-    font-family: Roboto sans-serif;
+    font-family: "Roboto sans-serif";
     font-weight: normal;
     color: rgb(0, 0, 0);
+    overflow: visible;
 }
 
 
@@ -151,7 +152,7 @@ footer {
 
 }
 
-*/
+
 /* styling for the recipe page */
 
 #section1-r h2 {
@@ -339,7 +340,7 @@ footer {
 }
 
 .sign-up-button {
-    margin-top: 25 px;
+    margin-top: 25px;
     border-radius: 5px;
     padding-top: 20px;
     padding-right: 30px;
