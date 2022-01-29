@@ -67,7 +67,38 @@ All pages share a commun header which is made of the page Logo and a navigation 
 # Testing #
 ---
 - I have tested the page in differents browsers: bing and chrome.
-- 
+- I have checker and confirmed that the project looks as it should .
+- I have checked and confirmed that all pages pass the ligth house report testing with a score of over 90.
+- I have checked and confirmed that the header , navigation bar and footer links all work and that the text sizes and colour contrast well with the differents back ground.
+- I have checked and confirmed that the form works . The required entries in all field works , the Email field will only accept Email and the submit button work.
+
+# Bugs #
+
+- There are no unsolved bugs.
+
+# Validator Testing #
+
+- HTML
+![html validator]()
+As the example above will show i have encontered some warning after the validation. 
+I have fixed all the warning and gotten raid of all the errors on all pages .
+The process was easy as the issues i had were that i had used the same section and section id for multiples elements , to fix this i changed all the affected id with classes and that solved the issues.
+- CSS
+When validating through the (jigsaw) validator my issues were the fact that ==font-family: "roboto sans-serif";== was written as ==font-family: roboto sans-serif;==
+To fix this i only had to add the "" to the proprety values.
+
+- Accesibility
+I have confirmed that all the accesibilitty criterias were meet for all pages as shown in the lighthouse reports below .
+![Home lighthouse report]()
+![Recipe lighthouse report]()
+![Eatery lighthouse report]()
+![Join lighthouse report]()
+
+
+
+
+
+
 
 
 
