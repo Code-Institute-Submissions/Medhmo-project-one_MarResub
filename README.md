@@ -104,7 +104,7 @@ I have confirmed that all the accesibilitty criterias were meet for all pages as
     - Once selected , the page will generate a live link for the website.
 
 The live link to my project website 
-- [title](https://medhmo.github.io/project-one/)
+- [Flover](https://medhmo.github.io/project-one/)
 
 # Credit #
 
