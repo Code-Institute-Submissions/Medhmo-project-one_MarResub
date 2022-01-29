@@ -64,6 +64,11 @@ All pages share a commun header which is made of the page Logo and a navigation 
 - The informations are required .
 - The form collect the user Name and their Email address.
 
+# Testing #
+---
+- I have tested the page in differents browsers: bing and chrome.
+- 
+
 
 
 
