@@ -364,19 +364,19 @@ footer {
 @media screen and (max-width: 1200px) {
 
     #section2 {
-        width: 65%;
+        width: 90%;
         height: 1000px;
         margin: 0 auto;
     }
 
     #welcome {
-        padding: 35px 0;
+        padding: 10px 0;
         margin: 0;
     }
 
     #section1 {
         clear: both;
-        width: 100%;
+        width: 80%;
         background-size: cover;
 
     }

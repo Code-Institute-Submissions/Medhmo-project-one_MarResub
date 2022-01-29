@@ -79,7 +79,7 @@ All pages share a commun header which is made of the page Logo and a navigation 
 # Validator Testing #
 
 - HTML
-![html validator]()
+![html validator](https://github.com/Medhmo/project-one/blob/main/assets/images/join%20warnings.png)
 As the example above will show i have encontered some warning after the validation. 
 I have fixed all the warning and gotten raid of all the errors on all pages .
 The process was easy as the issues i had were that i had used the same section and section id for multiples elements , to fix this i changed all the affected id with classes and that solved the issues.
@@ -90,9 +90,52 @@ To fix this i only had to add the "" to the proprety values.
 - Accesibility
 I have confirmed that all the accesibilitty criterias were meet for all pages as shown in the lighthouse reports below .
 ![Home lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Home%20lighthouse%20report.png)
+---
 ![Recipe lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Recipe%20lighthouse%20report.png)
+---
 ![Eatery lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/eatery%20lighthouse%20report.png)
+---
 ![Join lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Join%20page%20lighthouse%20report.png)
+---
+# Deployment #
+- The site was deployed to GitHub pages . The deployment steps are as follows:
+    - In my project GitHub repository , at the top right click the setting tab 
+    - From the source section , select Master Branch
+    - Once selected , the page will generate a live link for the website.
+
+The live link to my project website 
+- [title](https://medhmo.github.io/project-one/)
+
+# Credit #
+
+I have used :
+- Google fonts for my fonts 
+- Escosia websearch for my images
+- Font awesome for my icons
+- Git for my version control 
+- W3 School 
+- Code Institute learning material 
+- Tutor support 
+- Traversy Media on Youtube 
+- Markdown Guide website
+- Snip and Sketch
+- MDN web Docs
+- ami.responsive 
+- GitHub for deployment
+
+# Honorable Mentions #
+Special thanks to :
+- Code Institute and it s communitty
+- My mentor Jack Wachira
+- Our Cohort Facilitator Kasia Bogucka
+
+# Future Implimentation for the website #
+
+In future versions of this site we will be adding extra content to all our pages .
+And improve the look and feel for a better user experience.
+
+
+
 
 
 
