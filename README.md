@@ -33,14 +33,38 @@ All pages share a commun header which is made of the page Logo and a navigation 
 
 
 # Home page #
-![the Home page]( )
+![the Home page](https://github.com/Medhmo/project-one/blob/main/assets/images/home%20page%20image.png )
 - The first page the user land on , it has a lovely image of people enjoying a selection of food . The image is focused on the food.
 - The home page give a description of the site and explain that the site is made up of four pages :
 ---
+![the Home page](https://github.com/Medhmo/project-one/blob/main/assets/images/home%20page%20content.png)
 - The Home page,
 - The Recipe page,
-- The Eatery page ,
+- The Eatery page,
 - The Join page.
+
+# Recipe page #
+---
+![the recipe page]()
+- The recipe page gives the user an easy to navigate interface . showing them that the website is not just for user interested in dinning out , but also users that preffer staying in .
+- The page has some initial recipes , with more to be added soon .
+- The recipes are made up of 3 divs ; one div showing what the dish would look like , one div listing the ingredients required , one div outlinning the method .
+
+# Eatery page #
+
+![the Eatery page]()
+- the eatery page gives the user a list of some of the best places to eat in Ireland . These recommendation are based on the food first and foremost , the atmosphere and the service.
+- The page has a quick welcome text and the sections are made of two divs : one showing an image of the venue and another giving a brief introduction about the venu .
+- The page also provides the user with a link to the venu website making it easier and more convenient for their user experience.
+
+# Join page #
+
+![Join page]()
+- The join page collect date from the user so they can join the Flover familly.
+- The informations are required .
+- The form collect the user Name and their Email address.
+
+
 
 
 
