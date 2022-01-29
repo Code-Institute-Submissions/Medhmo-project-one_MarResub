@@ -89,10 +89,10 @@ To fix this i only had to add the "" to the proprety values.
 
 - Accesibility
 I have confirmed that all the accesibilitty criterias were meet for all pages as shown in the lighthouse reports below .
-![Home lighthouse report]()
-![Recipe lighthouse report]()
-![Eatery lighthouse report]()
-![Join lighthouse report]()
+![Home lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Home%20lighthouse%20report.png)
+![Recipe lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Recipe%20lighthouse%20report.png)
+![Eatery lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/eatery%20lighthouse%20report.png)
+![Join lighthouse report](https://github.com/Medhmo/project-one/blob/main/assets/images/Join%20page%20lighthouse%20report.png)
 
 
 
