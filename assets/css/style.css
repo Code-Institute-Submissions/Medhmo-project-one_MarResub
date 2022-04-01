@@ -30,7 +30,7 @@ h2 {
 
 section {
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 #section1 {
@@ -155,6 +155,10 @@ footer {
 
 }
 
+.footer-div {
+    padding-top: 30px;
+}
+
 
 /* styling for the recipe page */
 
@@ -175,11 +179,15 @@ footer {
 
 .section1-r,
 #section1-r-1 {
-    padding-top: 90px;
+    padding-top: 100px;
     width: 100%;
     height: 600px;
 
 }
+
+/* #salad-h2 {
+    margin-top: 30px;
+} */
 
 
 .recipe-p {
@@ -309,18 +317,19 @@ footer {
 .join-us-p {
     font-size: x-large;
     margin-top: 5vh;
+    padding-left: 10px;
 }
 
 #join-us-form {
     clear: both;
-    height: 1800px;
+    /* height: 1800px; */
     margin-top: 50px;
     margin-right: 20%;
     margin-bottom: 10px;
     margin-left: 10px;
     max-width: 500px;
-    padding: 40px;
-
+    /* padding: 40px; */
+    padding-left: 10px;
 }
 
 #user {
@@ -357,7 +366,7 @@ footer {
 }
 
 #join-us {
-    height: 1800px;
+    height: 1600px;
 }
 
 
@@ -441,7 +450,7 @@ footer {
     #eatery1-e,
     #eatery2-e {
         width: 65%;
-        height: 1000px;
+        /* height: 1000px; */
         margin: 0 auto;
     }
 
@@ -486,7 +495,7 @@ footer {
 
     #section2 {
         width: 90%;
-        height: 1000px;
+        height: 600px;
         margin-left: 20%;
     }
 
@@ -497,6 +506,9 @@ footer {
 
     #section2 p {
         text-align: left;
+        width: 80%;
+        margin-right: 110px;
+        padding-right: 20px;
         /* padding: 0 25px; */
     }
 
@@ -515,8 +527,9 @@ footer {
 
     .ftr {
         margin-bottom: 0;
-        margin-left: 20px;
-        width: 900px;
+        margin-top: 100px;
+        /* margin-left: 20px;
+        width: 900px; */
     }
 
     .section1-r {
@@ -567,6 +580,10 @@ footer {
         margin-top: 300px
     }
 
+    .username-div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -587,6 +604,11 @@ footer {
     #welcome {
         margin-right: 80px;
         text-align: left;
+
+    }
+
+    #section1 {
+        width: 100%;
 
     }
 
