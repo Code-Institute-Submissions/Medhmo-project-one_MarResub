@@ -83,7 +83,7 @@ section {
     height: 50px;
     font-size: 200%;
     font-style: normal;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
     margin-top: 20px;
     background: snow;
 
@@ -91,6 +91,7 @@ section {
 
 #nav-bar ul {
     display: flex;
+
     margin-right: 0;
     /* padding: 0 50px; */
     float: right;
@@ -155,11 +156,11 @@ footer {
 
 }
 
+/* 
 .footer-div {
-    padding-top: 30px;
-}
-
-
+    /* padding-top: 30px; */
+/* } */
+*/
 /* styling for the recipe page */
 
 .section1-r h2,
@@ -613,4 +614,21 @@ footer {
     }
 
 
+
+}
+
+/* media queries for screen sizes at max-width 450px */
+
+@media screen and (max-width: 450px) {
+
+    #nav-bar {
+
+        height: 50px;
+        font-size: medium;
+        font-style: normal;
+        /* letter-spacing: 4px; */
+        margin-top: 20px;
+        background: snow;
+
+    }
 }
