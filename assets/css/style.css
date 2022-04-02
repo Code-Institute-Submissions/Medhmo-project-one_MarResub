@@ -22,7 +22,7 @@ h2 {
     font-family: "Roboto Condensed sans-serif";
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 
 }
 
@@ -85,7 +85,8 @@ section {
     font-style: normal;
     /* letter-spacing: 4px; */
     margin-top: 20px;
-    background: snow;
+    /* background: snow; */
+    padding-right: 80px;
 
 }
 
@@ -108,7 +109,7 @@ section {
 #nav-bar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 0 20px;
+    padding: 0 10px;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
@@ -270,6 +271,7 @@ footer {
 }
 
 .eatery-h4 {
+    padding-top: 15px;
     text-align: center;
     font-family: "roboto sans-serif";
     font-weight: bold;
@@ -528,7 +530,7 @@ footer {
 
     .ftr {
         margin-bottom: 0;
-        margin-top: 100px;
+        margin-top: 200px;
         /* margin-left: 20px;
         width: 900px; */
     }
@@ -597,9 +599,15 @@ footer {
 /* media queries for screen sizes at max-width 800px */
 
 @media screen and (max-width: 800px) {
-    #nav-bar {
-        flex-basis: 200px;
+    /* #nav-bar {
+        /* flex-basis: 200px; */
 
+    /* } */
+    */ .section1-r h2,
+    #section1-r-1 h2 {
+
+        clear: both;
+        /* font-size: large; */
     }
 
     #welcome {
@@ -624,11 +632,43 @@ footer {
     #nav-bar {
 
         height: 50px;
-        font-size: medium;
+        font-size: 0.93em;
         font-style: normal;
         /* letter-spacing: 4px; */
         margin-top: 20px;
-        background: snow;
+        /* background: snow; */
+        /* padding-right: 100px; */
+        /* overflow: hidden; */
+        clear: both;
+        float: left;
+        /* padding-left: 8px; */
 
     }
+
+    .section1-r h2,
+    #section1-r-1 h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        width: 100%;
+        margin-top: 80px;
+        clear: both;
+        font-size: large;
+    }
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        margin-left: 12%;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    #section2 p {
+        font-size: 1.2em;
+    }
+
 }
