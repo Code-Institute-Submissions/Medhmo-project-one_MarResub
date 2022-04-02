@@ -22,7 +22,10 @@ h2 {
     font-family: "Roboto Condensed sans-serif";
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    clear: both;
 
 }
 
@@ -30,7 +33,7 @@ h2 {
 
 section {
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 #section1 {
@@ -42,14 +45,11 @@ section {
 }
 
 #section2 {
-
-    padding: 100px;
     height: auto;
-    box-sizing: border-box;
 }
 
 #section2 h2 {
-    font-size: 2.5em;
+    font-size: normal;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -59,6 +59,7 @@ section {
     font-size: 1.5em;
     margin: 0 auto;
     padding-top: 20px;
+    text-align: left;
 }
 
 
@@ -70,7 +71,7 @@ section {
     color: rgb(0, 0, 0);
     margin-left: 7%;
     font-weight: bold;
-    bottom: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -81,31 +82,26 @@ section {
     height: 50px;
     font-size: 200%;
     font-style: normal;
-    letter-spacing: 0.1vw;
-    top: 0;
-    background: snow;
+    margin-top: 20px;
+    padding-right: 80px;
 
 }
 
 #nav-bar ul {
     display: flex;
     margin-right: 0;
-    padding: 0 50px;
     float: right;
     flex-shrink: 2.5;
 }
 
 #nav-bar li {
-
     list-style-type: none;
-
-
 }
 
 #nav-bar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 0 20px;
+    padding: 0 10px;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
@@ -124,9 +120,7 @@ section {
 
 .active {
     border-bottom: 1px solid black;
-
 }
-
 
 /* footer styling */
 
@@ -142,7 +136,6 @@ footer {
 
 .ftr>li {
     display: inline;
-
 }
 
 .ftr i {
@@ -150,11 +143,7 @@ footer {
     margin: 1%;
     padding: 4%;
     color: black;
-
 }
-
-
-/* styling for the recipe page */
 
 .section1-r h2,
 #section1-r-1 h2 {
@@ -168,17 +157,14 @@ footer {
 .bolo-h3 {
     text-align: center;
     margin-top: 20px;
-
 }
 
 .section1-r,
 #section1-r-1 {
-    padding-top: 90px;
+    padding-top: 100px;
     width: 100%;
     height: 600px;
-
 }
-
 
 .recipe-p {
     font-family: "roboto sans-serif";
@@ -198,7 +184,6 @@ footer {
     width: 30%;
     float: left;
     background-size: cover;
-
 }
 
 .bolognese-ingredients {
@@ -259,6 +244,7 @@ footer {
 }
 
 .eatery-h4 {
+    padding-top: 15px;
     text-align: center;
     font-family: "roboto sans-serif";
     font-weight: bold;
@@ -285,7 +271,6 @@ footer {
     height: 300px;
     width: 55%;
     float: right;
-
 }
 
 /* join us styling */
@@ -307,18 +292,17 @@ footer {
 .join-us-p {
     font-size: x-large;
     margin-top: 5vh;
+    padding-left: 10px;
 }
 
 #join-us-form {
     clear: both;
-    height: 1800px;
     margin-top: 50px;
     margin-right: 20%;
     margin-bottom: 10px;
     margin-left: 10px;
     max-width: 500px;
-    padding: 40px;
-
+    padding-left: 10px;
 }
 
 #user {
@@ -355,7 +339,7 @@ footer {
 }
 
 #join-us {
-    height: 1800px;
+    height: 2000px;
 }
 
 
@@ -391,7 +375,6 @@ footer {
     .section1-r,
     #section1-r-1 {
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
 
@@ -417,7 +400,6 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-
     }
 
     #bolognese-image-t {
@@ -425,7 +407,6 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-
     }
 
     #bolognese-image-r {
@@ -433,13 +414,11 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-
     }
 
     #eatery1-e,
     #eatery2-e {
         width: 65%;
-        height: 1000px;
         margin: 0 auto;
     }
 
@@ -479,30 +458,30 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 30px;
-
     }
 
     #section2 {
         width: 90%;
-        height: 1000px;
+        height: 600px;
         margin-left: 20%;
     }
 
     #section2 h2 {
-        width: 100%;
+        width: 70%;
         text-align: center;
     }
 
     #section2 p {
-        text-align: center;
-        padding: 0 25px;
+        text-align: left;
+        width: 80%;
+        margin-right: 110px;
+        padding-right: 20px;
     }
 
     #section1 {
         clear: both;
         width: 90%;
         background-size: cover;
-
     }
 
     #welcome {
@@ -513,8 +492,7 @@ footer {
 
     .ftr {
         margin-bottom: 0;
-        margin-left: 20px;
-        width: 900px;
+        margin-top: 200px;
     }
 
     .section1-r {
@@ -565,6 +543,10 @@ footer {
         margin-top: 300px
     }
 
+    .username-div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -572,4 +554,78 @@ footer {
     clear: both;
     width: 100%;
     background-size: cover;
+}
+
+/* media queries for screen sizes at max-width 800px */
+
+@media screen and (max-width: 800px) {
+
+    .section1-r h2,
+    #section1-r-1 h2 {
+        clear: both;
+    }
+
+    #welcome {
+        margin-right: 80px;
+        text-align: left;
+    }
+
+    #section1 {
+        width: 100%;
+    }
+}
+
+/* media queries for screen sizes at max-width 450px */
+
+@media screen and (max-width: 450px) {
+
+    #nav-bar {
+        height: 50px;
+        font-size: 0.93em;
+        font-style: normal;
+        margin-top: 20px;
+        clear: both;
+        float: left;
+    }
+
+    .section1-r h2,
+    #section1-r-1 h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        width: 100%;
+        margin-top: 80px;
+        clear: both;
+        font-size: large;
+    }
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        margin-left: 12%;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    #section2 p {
+        font-size: 1.2em;
+    }
+
+    section1-r-p,
+    .section1-r-1 p {
+
+        font-size: 0.93em;
+    }
+
+    .recipe-li {
+
+        font-size: 0.93em;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
 }
